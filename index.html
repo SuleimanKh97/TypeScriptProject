@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScriptProject</title>
+    <style>
+        #listTasks{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <form id="taskForm">
+        <h1>Product Form</h1>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" placeholder="title">
+        <br>
+        <label for="states">States:</label>
+        <input type="text" id="states" name="states" placeholder="states">
+        <br>
+        <label for="startDate">StartDate:</label>
+        <input type="date" id="startDate" name="startDate" placeholder="StartDate">
+        <br>
+        <label for="endDate">EndDate:</label>
+        <input type="date" id="endDate" name="endDate" placeholder="endDate">
+        <br>
+        <br>
+        <button type="submit">Add Task</button>
+
+
+        <!-- <button type="button" onclick="localStorage.clear()">Clear localStorage</button> -->
+    </form>
+
+
+    <h2>Tasks</h2>
+    <div id="listTasks"></div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
